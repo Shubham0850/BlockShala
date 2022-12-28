@@ -45,7 +45,7 @@ export const whitepaperData = [
     logo_url: "/logo/covalent.png",
     title: "Covalent",
     sub_title: "Provides a unified API ",
-    writer: "",
+    writer: "Covalent",
     link: "https://www.covalenthq.com/static/documents/Covalent%20Whitepaper%20May%202022%20v1.1%20Branded.pdf",
   },
   {
@@ -81,6 +81,7 @@ export const whitepaperData = [
     logo_url: "/logo/uma.png",
     title: "Uma",
     sub_title: "A decentralized Financial Contract Platform",
+    writer:"Uma",
     link: "https://umaproject.org/UMA-whitepaper.pdf",
   },
   {
@@ -94,6 +95,7 @@ export const whitepaperData = [
     logo_url: "/logo/binance.png",
     title: "Binance",
     sub_title: "A Parallel Blockchain to Beacon Chain to Enable Smart Contracts.",
+    writer:"Binance",
     link: "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
   },
 
@@ -102,10 +104,70 @@ export const whitepaperData = [
     logo_url: "/logo/aave.png",
     title: "Aave",
     sub_title: "Open source liquidity Protocol",
+    writer:"Aave",
     link: "https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf",
   },
-  
-  
-
-  
+  {
+    logo_url: "/logo/compound.png",
+    title: "Compound",
+    sub_title: "The money Market Protocol",
+    writer: "Robert Leshner and Geoffrey Hayes",
+    link: "https://github.com/compound-finance/compound-money-market/blob/master/docs/CompoundWhitepaper.pdf",
+  },
+  {
+    logo_url: "/logo/oasis.png",
+    title: "Oasis",
+    sub_title: "Provides a Privacy layer for web3",
+    writer:"Oasis",
+    link: "https://assets.website-files.com/5f59478e350b91447863f593/628ba74a9aee37587419cf65_20200623%20The%20Oasis%20Blockchain%20Platform.pdf",
+  },
+  {
+    logo_url: "/logo/1inch.png",
+    title: "1inch",
+    sub_title: "Discovering the most efficient swapping routes across all leading DEXes.",
+    writer:"Anton Bukov and Mikhail Melnik",
+    link: "https://whitepaper.io/document/618/1inch-whitepaper",
+  },
+  {
+    logo_url: "/logo/tezos.png",
+    title: "Tezos",
+    sub_title: "A self-amending crypto-ledger",
+    writer:"L.M GoodMan",
+    link: "https://tezos.com/whitepaper.pdf",
+  },
+  {
+    logo_url: "/logo/polkadot.png",
+    title: "Polkadot",
+    sub_title: "Vision for a Heterogeneous Multi-chain framework",
+    writer:"DR. Gavin wood",
+    link: "https://polkadot.network/PolkaDotPaper.pdf",
+  },
+  {
+    logo_url: "/logo/sandbox.png",
+    title: "Sandbox",
+    sub_title: "A Gaming Virtual World on Ethereum blockchain",
+    writer:"Sandbox",
+    link: "https://whitepaper.io/document/642/the-sandbox-whitepaper",
+  },
+  {
+    logo_url: "/logo/stepn.png",
+    title: "Stepn",
+    sub_title: "A web3 lifestyle app that rewards user for movement.",
+    writer:"Stepn",
+    link: "https://whitepaper.stepn.com/",
+  },
+  {
+    logo_url: "/logo/audius.png",
+    title: "Audius",
+    sub_title: "A Decentralized Protocol for Audio Content.",
+    writer:"Roneil Rumburg, Sid Sethi, Hareesh Nagaraj",
+    link: "https://whitepaper.audius.co/AudiusWhitepaper.pdf",
+  },
+  {
+    logo_url: "/logo/cardano.png",
+    title: "Cardano",
+    sub_title: "a decentralised public blockchain and cryptocurrency project.",
+    writer:"Charles Hoskinson",
+    link: "https://whitepaper.io/document/581/cardano-whitepaper",
+  },
 ];
