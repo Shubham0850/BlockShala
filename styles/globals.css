@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+  font-family: "Rocoleta";
+  src: url("./fonts/Recoleta-RegularDEMO.otf");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("./fonts/AvenirLTStd-Roman.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rocoleta", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Global stylesheet */
+
+/* ---------------------------------------------- */
+
+/* Typography */
+.heading {
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+
+
+
+.sub-heading{
+  background-color: #E2FFAA;
+  display: inline;
+  padding: 5px 25px;
+  border-radius: 25px;
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.p {
+  font-family: "Avenir", sans-serif;
+}
+
+ion-icon:hover{
+  transition: all 1s ease;
+  scale: 1.1;
+}
+
+/* Common component */
+.btn {
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 0px;
+  border: 2px solid #000;
+  font-size: 20px;
+}
+.btn:hover{
+  transition: all 1s ease;
+  border: 2px solid #000;
+  box-shadow: 5px 5px gray 
+}
+
+.hover:hover{
+  transition: all 1s ease;
+  cursor: pointer;
+  box-shadow: 5px 5px gray 
+}
+
+/* Layout */
+.section {
+  width: 100%;
+  max-width: 1300px;
+  padding: 100px 30px;
+  margin: 0 auto;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 600px){
+  .heading{
+    font-size: 4em;
+  }
+  .section{
+    padding: 100px 25px;
+  }
+}
