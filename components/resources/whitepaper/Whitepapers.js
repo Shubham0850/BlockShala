@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import { whitepaperData } from "../../../data/resources/whitepaper";
 
 function Card(props) {
-  const { logo_url, title, sub_title, writter, link } = props;
+  const { logo_url, title, sub_title, writer, link } = props;
 
   return (
     <Link href={link}>
@@ -18,7 +18,7 @@ function Card(props) {
         <p className="p text-sm">
           {sub_title}
         </p>
-        <p className="p mt-3 text-xs">✍️ {writter}</p>
+        <p className="p mt-3 text-xs">✍️ {writer}</p>
       </div>
     </Link>
   );
@@ -40,7 +40,7 @@ function Whitepapers() {
                   logo_url={data.logo_url}
                   title={data.title}
                   sub_title={data.sub_title}
-                  writter={data.writter}
+                  writer={data.writer}
                   link={data.link}
                 />
               </Col>
