@@ -22,5 +22,13 @@ export const contributorsData = [
         twitter: "",
         linkedin: "",
         discord: "",
+    },
+    {
+        name: "Jayjeet Kumar",
+        title: "WEB3 Developer",
+        profile_url: "/profiles/jayjeet.png",
+        twitter: "",
+        linkedin: "",
+        discord: "",
     }
 ]
