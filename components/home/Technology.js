@@ -14,7 +14,7 @@ function Card(tech) {
 
   return (
     <div className="border-2 hover border-dark py-5 px-3">
-      <img className="mb-3 max-h-[50px]" src={logo_url} />
+      <img className="mb-3 max-h-[50px]" src={logo_url} alt="logo" />
 
       <h4 className="my-3 h4">{title}</h4>
       <p className="p text-sm line-clamp-4">{sub_title}</p>
@@ -37,7 +37,7 @@ export default function Technology() {
         <Row>
           {techData.slice(0, 8).map((tech, index) => {
             return (
-              <Col key={index} sm={3} className="p-2">
+              <Col key={index + 1} sm={3} className="p-2">
                 <Card
                   title={tech.title}
                   logo_url={tech.logo_url}

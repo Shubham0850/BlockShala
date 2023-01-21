@@ -15,15 +15,15 @@ function ContributerCard({ pic, name, title }) {
 
       <div>
         <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
-          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-twitter" />
         </a>
 
         <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
-          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-linkedin" />
         </a>
 
         <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
-          <ion-icon name="logo-discord"></ion-icon>
+          <ion-icon name="logo-discord" />
         </a>
       </div>
     </div>
@@ -35,15 +35,15 @@ export default function Contributers() {
     <div className="bg-[#FAFFE9]">
       <div className="section">
         <h1 className="h1">Want to switch your career to WEB3.0?</h1>
-        <p className="p mb-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+        <p className="mb-5 p">
+          Strat contributing right now, and become the part of this revolution.
+          Here is the list of some early contributors
         </p>
 
         <Row>
           {contributorsData.map((contributer, index) => {
             return (
-              <Col xs={6} sm={2} key={index}>
+              <Col xs={6} sm={2} key={contributer.title}>
                 <ContributerCard
                   pic={contributer.profile_url}
                   name={contributer.name}

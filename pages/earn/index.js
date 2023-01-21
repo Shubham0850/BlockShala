@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import EarnHeader from "../components/earn/Header";
+import EarnHeader from "../../components/earn/Header";
+import Jobs from "../../components/earn/Jobs";
+import Jobs2 from "../../components/earn/Jobs2";
 
 function earn() {
   return (
@@ -12,6 +14,7 @@ function earn() {
       </Head>
 
       <EarnHeader />
+      {/* <Jobs2/> */}
     </div>
   );
 }
