@@ -102,6 +102,9 @@ export default function Footer() {
               <p className={linkStyle}>
                 <Link href="/resources/web3-glossary">Web3-Glossary</Link>
               </p>
+              <p className={linkStyle}>
+                <Link href="/resources/consensus">Consensus Algorithms</Link>
+              </p>
             </div>
           </Col>
         </Row>
